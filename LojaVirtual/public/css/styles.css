@@ -1,0 +1,205 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');*/
+  
+
+/*principal*/
+
+body{
+
+background-color: whitesmoke;
+margin: 0px;
+padding: 0px;
+
+}
+
+.title{
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(38, 38, 38);
+    padding: 0px;
+
+}
+
+.buttons{
+
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.buttons button{
+
+    border: none;
+    font-size: medium;
+
+
+}
+
+.buttons button:hover{
+
+    cursor: pointer;
+    box-shadow: none;
+    background-color: rgb(64, 60, 75);
+    color: whitesmoke;
+
+
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.card{
+
+padding: 10px;
+border-width: 40px;
+background-color: rgb(237, 247, 240);
+
+}
+
+
+.card:hover{
+
+transform: scale(1.03);
+cursor: pointer;
+transition: 0.3s;
+
+
+}
+
+a{
+
+text-decoration: none;
+color: black;
+
+}
+
+a:hover{
+
+    text-decoration: none;
+    color: whitesmoke;
+    
+    }
+
+.produto p{
+
+    max-width: 250px;
+
+}
+
+/*Detalhes*/
+
+.info-prod{
+
+padding-top: 100px;
+
+}
+
+.deta-prod{
+
+    display: flex;
+    flex-direction: row;
+    border-top: solid, black;
+
+}
+
+.imgprod{
+    padding-right: 250px;
+    padding-left: 50px;
+}
+
+.comprar_card, .detalhes_card{
+    
+    font-size: large;
+    background-color: rgb(38, 38, 38);
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 8px;
+
+}
+
+
+
+.lk_detalhes{
+
+text-decoration: none;
+color: whitesmoke;
+
+}
+
+.comprar1, .lk_comprar2{
+
+    width: 300px;
+    height: 50px;
+    font-size: xx-large;
+    background-color: rgb(38, 38, 38);
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+
+.tipo-prod{
+
+    font-size: large;
+
+}
+
+#preco{
+
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+
+}
+
+.cbbtamanho{
+
+font-size: x-large;
+
+}
+
+.cbbtamanho1{
+
+font-size: large;
+
+}
+
+#info-parcelamento-prod{
+
+    font-size:  large;
+
+}
+
+#detalhes-prod{
+
+    font-size: x-large;
+    font-weight: 900;   
+    display: flex;
+    justify-content: center;
+
+}
+
+#detalhes-prod p{
+
+max-width: 100%;
+
+}
+
+.opcao-parc{
+
+    border-radius: 10px;
+
+}
